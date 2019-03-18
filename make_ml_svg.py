@@ -32,7 +32,7 @@ with open("nn.svg", "w") as f:
         height="500" width="600" \
         xmlns="http://www.w3.org/2000/svg" version="1.1">')
 
-    # Lines
+    # Input lines to input layer
     for row in range(numberInputs):
         # Lines to input notes
         f.write('<line \
